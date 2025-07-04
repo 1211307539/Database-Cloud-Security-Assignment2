@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heather</title>
+    <link rel="icon" href="img/icon.ico" type="image/x-icon">
+</head>
+
+<style>
+    body {
+        margin: 0;
+        background-color: powderblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        overflow: hidden;
+        background-image: url('img/tanjiro.gif');
+        background-size: auto;
+        background-position: center top;
+        background-position-y: 18%;
+        background-position-x: 40%;
+        background-repeat: no-repeat;
+    }
+
+    #topText {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        color: black;
+        font-size: 70px;
+    }
+
+    #topText a {
+        text-decoration: none;
+        color: inherit; 
+    }
+
+    .panel {
+        max-width: 800px;
+        padding: 100px;
+        background-color: rgba(255, 255, 255, 0.932);
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        border: 2px solid #3498db;
+        animation: borderAnimation 2s infinite alternate;
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+    }
+
+    h1, p {
+        margin: 20px 0;
+    }
+
+    @keyframes borderAnimation {
+        to {
+            border-color: rgb(8, 7, 92);
+        }
+    }
+</style>
+
+<body>
+    <div id="topText">
+        <a href="Thomepage.php">Heather‧࿐࿔</a>
+    </div>
+
+    <div class="panel">
+        <h1>About Us!</h1>
+        <p>Inspired by an assignment that came together as a package from learning software engineering,
+            3 normal kids started to build a system just so people can co-live together in a place
+            that even you can call home.
+        </p>
+    </div>
+</body>
+</html>
