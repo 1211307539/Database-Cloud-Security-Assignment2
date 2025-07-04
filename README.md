@@ -2,7 +2,7 @@ CCS6344
 Database and Cloud Security
 
 
-Assignment 1 (10%) 
+Assignment 2 (10%) 
 Tutorial Section: TT1L 
 Group No. :  25
 
